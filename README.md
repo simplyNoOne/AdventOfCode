@@ -1,0 +1,6 @@
+# AdventOfCode2022
+my daily struggles with Advent of Code 2022 in Python...
+
+I don't know Python...
+
+it's gonna be fun!
