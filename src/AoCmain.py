@@ -1,12 +1,15 @@
-from Day1 import Day1
-from Day2 import Day2
+from Day1 import *
+from Day2 import *
+from Day3 import *
 
-print("hello")
+#print("Day1:")
+#day1_base()
+#day1_extra()
 
-#day1 = Day1()
-#day1.day1_base()
-#day1.day1_extra()
+#print("Day2:")
+#day2_base()
+#day2_extra()
 
-day2 = Day2()
-day2.day2_base()
-day2.day2_extra()
+print("Day3:")
+day3_base()
+day3_extra()
