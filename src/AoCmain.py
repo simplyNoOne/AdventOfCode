@@ -1,9 +1,10 @@
-from Day1 import *
-from Day2 import *
-from Day3 import *
-from Day4 import *
-from Day5 import *
-from Day6 import *
+#from Day1 import *
+#from Day2 import *
+#rom Day3 import *
+#rom Day4 import *
+#rom Day5 import *
+#rom Day6 import *
+from Day7 import *
 
 #print("Day1:")
 #day1_base()
@@ -25,6 +26,10 @@ from Day6 import *
 #day5_base()
 #day5_extra()
 
-print("Day6:")
-day6_base(4)
-day6_extra(14)
+#print("Day6:")
+#day6_base(4)
+#day6_extra(14)
+
+print("Day7:")
+day7_base()
+day7_extra()
