@@ -4,8 +4,8 @@
 #rom Day4 import *
 #rom Day5 import *
 #rom Day6 import *
-from Day7 import *
-
+#from Day7 import *
+from Day8 import *
 #print("Day1:")
 #day1_base()
 #day1_extra()
@@ -30,6 +30,10 @@ from Day7 import *
 #day6_base(4)
 #day6_extra(14)
 
-print("Day7:")
-day7_base()
-day7_extra()
+#print("Day7:")
+#day7_base()
+#day7_extra()
+
+print("Day8:")
+day8_base()
+day8_extra()
