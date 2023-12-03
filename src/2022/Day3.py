@@ -4,7 +4,7 @@ def day3_base():
     sum_priorities = 0
     occurences = [0]*52
     letters = string.ascii_letters
-    f = open("../inputs/day3.txt", "r")
+    f = open("inputs/day3.txt", "r")
     while True:
         rucksack = f.readline()
         if not rucksack:
@@ -30,7 +30,7 @@ def day3_extra():
     badges_priorities = 0
     letters = string.ascii_letters
     occurences = [0]*52
-    f = open("../inputs/day3.txt", "r")
+    f = open("inputs/day3.txt", "r")
     while True:
         elf1 = f.readline()
         if not elf1:

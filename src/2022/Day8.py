@@ -2,7 +2,7 @@ from collections import deque
 
 # a better way with no classes and a simple algorithm, still doesn't look like Python, it's hard getting used to it after writing in i C based languages
 def day8_base():
-    f = open("../inputs/day8.txt", "r")
+    f = open("inputs/day8.txt", "r")
     file = f.read()
     temp = file.split("\n")
     temp.pop()
@@ -51,7 +51,7 @@ def day8_base():
 
 # less efficient way with classes and lots of code that hardly looks Pythonic
 def day8_extra():
-    f = open("../inputs/day8.txt", "r")
+    f = open("inputs/day8.txt", "r")
     file = f.read()
     temp = file.split("\n")
     temp.pop()

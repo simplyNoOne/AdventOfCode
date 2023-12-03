@@ -2,7 +2,7 @@ from collections import deque
 
 
 def day6_base(length):
-    f = open("../inputs/day6.txt", "r")
+    f = open("inputs/day6.txt", "r")
     start =length-1
     buffer = f.read()
     prevs = deque()
@@ -29,7 +29,7 @@ def day6_base(length):
 
 
 def day6_extra(length):     #a slightly better optimized version?
-    f = open("../inputs/day6.txt", "r")
+    f = open("inputs/day6.txt", "r")
     start = length-1
     buffer = f.read()
     prevs = deque()

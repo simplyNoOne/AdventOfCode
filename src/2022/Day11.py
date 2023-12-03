@@ -7,7 +7,7 @@ def lcm(a, b):
     return (a*b) // math.gcd(a,b)
 
 def day11_base():
-    f = open('../inputs/day11.txt', 'r')
+    f = open('inputs/day11.txt', 'r')
     worry = 0
     monkey_items = []
     monkey_rules = []
@@ -62,7 +62,7 @@ def day11_base():
 
 def day11_extra():
     print(part2(details))
-    f = open('../inputs/day11.txt', 'r')
+    f = open('inputs/day11.txt', 'r')
     monkey_items = []
     monkey_rules = []
     monkey_inspections = []
@@ -124,7 +124,7 @@ ops = {
 }
 
 #I will not use regex. I will outlive the usefulness of regex
-with open('../inputs/day11.txt') as f:
+with open('inputs/day11.txt') as f:
     monkeys = f.read().strip().split('\n\n')
 details = []
 for detail in monkeys:

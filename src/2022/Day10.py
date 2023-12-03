@@ -8,7 +8,7 @@ def check_cycle(cycle, X):
 
 
 def day10_base():
-    f = open('../inputs/day10.txt', 'r')
+    f = open('inputs/day10.txt', 'r')
     cycle = 1
     x = 1
     signal_sum = 0
@@ -42,7 +42,7 @@ def draw(image, cycle, x):
 
 
 def day10_extra():
-    f = open('../inputs/day10.txt', 'r')
+    f = open('inputs/day10.txt', 'r')
     image = ''
     cycle = 1
     x = 1

@@ -1,7 +1,7 @@
 import ast
 
 def day13_base():
-    f = open('../inputs/day13.txt', 'r')
+    f = open('inputs/day13.txt', 'r')
     buffer = f.read().split('\n')
     f.close()
     buffer.pop()
@@ -19,7 +19,7 @@ def day13_base():
 
 
 def day13_extra():
-    f = open('../inputs/day13.txt', 'r')
+    f = open('inputs/day13.txt', 'r')
     buffer = f.read().split('\n')
     f.close()
     buffer.pop()

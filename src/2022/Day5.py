@@ -1,6 +1,6 @@
 import re
 def day5_base():        #probably better optimized, strings appended instead of being rewritten
-    f = open("../inputs/day5.txt", "r")
+    f = open("inputs/day5.txt", "r")
     top_creates = ""
     crate_stacks = [""]*9
     while True:
@@ -36,7 +36,7 @@ def day5_base():        #probably better optimized, strings appended instead of 
     f.close()
 
 def day5_extra():       #worse computation complexity, strings rewritten with every move
-    f = open("../inputs/day5.txt", "r")
+    f = open("inputs/day5.txt", "r")
     top_creates = ""
     crate_stacks = [""]*9
     while True:

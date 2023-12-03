@@ -1,5 +1,5 @@
 def day1_base():
-    f = open("../inputs/day1.txt", "r")
+    f = open("inputs/day1.txt", "r")
     elfs_cals = 0
     max_cals = 0
     while True:
@@ -16,7 +16,7 @@ def day1_base():
     f.close()
 
 def day1_extra():
-    f = open("../inputs/day1.txt", "r")
+    f = open("inputs/day1.txt", "r")
     elfs_cals = 0
     max1_cals = 0
     max2_cals = 0

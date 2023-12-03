@@ -2,7 +2,7 @@ import queue
 
 #operating on a set
 def day7_base():
-    f = open("../inputs/day7.txt", "r")
+    f = open("inputs/day7.txt", "r")
     searched_size = 0
     MAX_SIZE = 100000
     current_folders_data = []
@@ -34,7 +34,7 @@ def day7_base():
 
 #using recurrence
 def day7_extra():
-    f = open("../inputs/day7.txt", "r")
+    f = open("inputs/day7.txt", "r")
     TOTAL = 70000000
     MIN_FREE = 30000000
     sizes = queue.Queue()

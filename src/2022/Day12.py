@@ -20,7 +20,7 @@ def calc_path(start, end, grid):
 
 
 def day12_base():
-    f = open('../inputs/day12.txt', 'r')
+    f = open('inputs/day12.txt', 'r')
     buffer = f.read().split('\n')
     f.close()
     buffer.pop()
@@ -45,7 +45,7 @@ def day12_base():
 
 
 def day12_extra():
-    f = open('../inputs/day12.txt', 'r')
+    f = open('inputs/day12.txt', 'r')
     buffer = f.read().split('\n')
     f.close()
     buffer.pop()

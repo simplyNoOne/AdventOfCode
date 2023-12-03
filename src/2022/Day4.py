@@ -1,6 +1,6 @@
 
 def day4_base():
-    f = open("../inputs/day4.txt", "r")
+    f = open("inputs/day4.txt", "r")
     contains_count = 0
     while True:
         pair = f.readline()
@@ -24,7 +24,7 @@ def day4_base():
     f.close()
 
 def day4_extra():
-    f = open("../inputs/day4.txt", "r")
+    f = open("inputs/day4.txt", "r")
     overlap_count = 0
     while True:
         pair = f.readline()

@@ -1,6 +1,6 @@
 def day2_base():
 
-    f = open("../inputs/day2.txt", "r")
+    f = open("inputs/day2.txt", "r")
     mymove = ['X', 'Y', 'Z']
     opponent = ['A', 'B', 'C']
 
@@ -19,7 +19,7 @@ def day2_base():
 
 def day2_extra():
 
-    f = open("../inputs/day2.txt", "r")
+    f = open("inputs/day2.txt", "r")
     mymove = ['X', 'Y', 'Z']
     opponent = ['A', 'B', 'C']
 
