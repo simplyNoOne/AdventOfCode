@@ -6,6 +6,7 @@ from Day5 import *
 from Day6 import *
 from Day7 import *
 from Day8 import *
+from Day9 import *
 
 # print("Day1:")
 # print(day1_base())
@@ -36,8 +37,12 @@ from Day8 import *
 
 # print("Day7:")
 # print(day7_base())
-#print(day7_extra())
+# print(day7_extra())
 
-print("Day8:")
-print(day8_base())
-print(day8_extra())
+# print("Day8:")
+# print(day8_base())
+# print(day8_extra())
+
+print("Day9:")
+print(day9_base())
+print(day9_extra())
